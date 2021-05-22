@@ -56,9 +56,9 @@ class _LandingPageState extends State<LandingPage> {
               height: _height * 0.02,
             ),
             ElevatedButton(
-                onPressed: () => Navigator.pushNamed(context, Caesar.route),
+                onPressed: null,
                 child: Text(
-                  ' ',
+                  'More Ciphers Later',
                   style: TextStyle(fontSize: _width * 0.04),
                 )),
           ],

@@ -39,7 +39,7 @@ class _CaesarState extends State<Caesar> {
                   keyboardType: TextInputType.text,
                 ),
                 Container(
-                  height: 32.0,
+                  height: 22.0,
                 ),
                 TextField(
                   decoration: InputDecoration(labelText: 'Input your key'),
@@ -47,7 +47,7 @@ class _CaesarState extends State<Caesar> {
                   keyboardType: TextInputType.number,
                 ),
                 Container(
-                  height: 32.0,
+                  height: 22.0,
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
